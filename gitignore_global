@@ -2,4 +2,61 @@
 *.swp
 .DS_Store
 .ruby-version
-erd.pdf
+.ruby-gemset
+/.bundle/
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+/.bundle
+.rvmrc
+*.log
+*.pid
+*.seed
+.grunt
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+### Other
+bower_compents/
+public/cache/
+public/stylesheets/compiled
+**.orig
+*.sqlite3
+*.sqlite3-journal
+*.iml
+.env
+
